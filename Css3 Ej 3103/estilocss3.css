@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+body{
+	background-color: #000000;
+	font-family: 'Rubik Wet Paint';}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: 'Rubik Wet Paint';
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Rubik Wet Paint';
+	column-count: 2;
+	column-gap: 30px;
+	column-rule: 1px solid #f00;
+	border-color:#f00;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.uno{
+	filter: blur(2px);
+}
+
+.dos{
+	filter: sepia(80%);
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Rubik Wet Paint';
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background:
+	url(img/Koala.png) right bottom no-repeat,
+	url(img/Sol.png) left top no-repeat,
+	url(img/ciudad.jpg) 0 0 no-repeat;
+	
+
+
+}
+
+.transparencia, .sombra, .degradado {
+		width: 960px;
+	height: 640px;
+	background-color: green;
+	
+}
+
+.transparencia{
+	filter: opacity(50%);
+}
+
+.degradado{
+	background: rgb(121,16,9);
+background: linear-gradient(90deg, rgba(121,16,9,1) 47%, rgba(0,10,255,1) 100%);
+}
+
+.sombra{
+	background-color: #F53307;
+	-moz-box-shadow: 5px 10px 26px #fa6f12;
+-webkit-box-shadow: 5px 10px 26px #fa6f12;
+box-shadow: 5px 10px 26px #fa6f12;
+}
+.conejos {
+	border: 2px solid #ffffff;
+	border-radius: 15px;
+}
